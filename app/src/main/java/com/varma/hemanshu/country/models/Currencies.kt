@@ -1,0 +1,112 @@
+package com.varma.hemanshu.country.models
+
+
+import com.squareup.moshi.Json
+import com.squareup.moshi.JsonClass
+import kotlinx.parcelize.Parcelize
+import android.os.Parcelable
+
+@JsonClass(generateAdapter = true)
+@Parcelize
+data class Currencies(
+    @Json(name = "AED")
+    val aED: AED?,
+    @Json(name = "AFN")
+    val aFN: AFN?,
+    @Json(name = "AMD")
+    val aMD: AMD?,
+    @Json(name = "AZN")
+    val aZN: AZN?,
+    @Json(name = "BDT")
+    val bDT: BDT?,
+    @Json(name = "BHD")
+    val bHD: BHD?,
+    @Json(name = "BND")
+    val bND: BND?,
+    @Json(name = "BTN")
+    val bTN: BTN?,
+    @Json(name = "CNY")
+    val cNY: CNY?,
+    @Json(name = "EGP")
+    val eGP: EGP?,
+    @Json(name = "GEL")
+    val gEL: GEL?,
+    @Json(name = "HKD")
+    val hKD: HKD?,
+    @Json(name = "IDR")
+    val iDR: IDR?,
+    @Json(name = "ILS")
+    val iLS: ILS?,
+    @Json(name = "INR")
+    val iNR: INR?,
+    @Json(name = "IQD")
+    val iQD: IQD?,
+    @Json(name = "IRR")
+    val iRR: IRR?,
+    @Json(name = "JOD")
+    val jOD: JOD?,
+    @Json(name = "JPY")
+    val jPY: JPY?,
+    @Json(name = "KGS")
+    val kGS: KGS?,
+    @Json(name = "KHR")
+    val kHR: KHR?,
+    @Json(name = "KPW")
+    val kPW: KPW?,
+    @Json(name = "KRW")
+    val kRW: KRW?,
+    @Json(name = "KWD")
+    val kWD: KWD?,
+    @Json(name = "KZT")
+    val kZT: KZT?,
+    @Json(name = "LAK")
+    val lAK: LAK?,
+    @Json(name = "LBP")
+    val lBP: LBP?,
+    @Json(name = "LKR")
+    val lKR: LKR?,
+    @Json(name = "MMK")
+    val mMK: MMK?,
+    @Json(name = "MNT")
+    val mNT: MNT?,
+    @Json(name = "MOP")
+    val mOP: MOP?,
+    @Json(name = "MVR")
+    val mVR: MVR?,
+    @Json(name = "MYR")
+    val mYR: MYR?,
+    @Json(name = "NPR")
+    val nPR: NPR?,
+    @Json(name = "OMR")
+    val oMR: OMR?,
+    @Json(name = "PHP")
+    val pHP: PHP?,
+    @Json(name = "PKR")
+    val pKR: PKR?,
+    @Json(name = "QAR")
+    val qAR: QAR?,
+    @Json(name = "SAR")
+    val sAR: SAR?,
+    @Json(name = "SGD")
+    val sGD: SGD?,
+    @Json(name = "SYP")
+    val sYP: SYP?,
+    @Json(name = "THB")
+    val tHB: THB?,
+    @Json(name = "TJS")
+    val tJS: TJS?,
+    @Json(name = "TMT")
+    val tMT: TMT?,
+    @Json(name = "TRY")
+    val tRY: TRY?,
+    @Json(name = "TWD")
+    val tWD: TWD?,
+    @Json(name = "USD")
+    val uSD: USD?,
+    @Json(name = "UZS")
+    val uZS: UZS?,
+    @Json(name = "VND")
+    val vND: VND?,
+    @Json(name = "YER")
+    val yER: YER?
+) : Parcelable
